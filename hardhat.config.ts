@@ -5,7 +5,7 @@ import '@nomiclabs/hardhat-waffle';
 import deployer from './.secret';
 
 // const KCC_RPC = 'https://127.0.0.1:8545/';
-const KCC_RPC = 'http://127.0.0.1:8545';
+const KCC_RPC = 'https://svc.blockdaemon.com/avax/mainnet/native';
 const KCC_Tetsnet_RPC = 'https://rpc-testnet.kcc.network';
 
 const config: HardhatUserConfig = {
@@ -23,12 +23,12 @@ const config: HardhatUserConfig = {
     },
     kccTestnet: {
       url: KCC_Tetsnet_RPC,
-      chainId: 0x141,
+      chainId: 43113,
       accounts: [deployer.private],
     },
     kcc: {
       url: KCC_RPC,
-      chainId: 0x141,
+      chainId: 43114,
       accounts: [deployer.private],
     },
   },

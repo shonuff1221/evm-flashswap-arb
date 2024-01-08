@@ -126,7 +126,7 @@ The solution x is the amount we need to borrow from Pair0.
 2. Copy the secret sample config：
 
 ```bash
-$ cp .secret.ts.sample .secret.ts
+$ cp .secret.sample.ts .secret.ts
 
 ```
 

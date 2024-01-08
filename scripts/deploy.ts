@@ -3,7 +3,7 @@ import { ethers, run } from 'hardhat';
 import deployer from '../.secret';
 
 // WKCS address on KCC, WETH address on ETH
-const WethAddr = '0x4446fc4eb47f2f6586f9faab68b3498f86c07521';
+const WethAddr = '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7';//WAVAX
 
 async function main() {
   await run('compile');
